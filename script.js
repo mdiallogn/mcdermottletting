@@ -27,9 +27,9 @@
    ============================================================ */
 
 // -- Replace these three values with your own from EmailJS --
-var EMAILJS_PUBLIC_KEY  = "YOUR_PUBLIC_KEY";   // e.g. "abc123XYZ_abcdefg"
-var EMAILJS_SERVICE_ID  = "YOUR_SERVICE_ID";   // e.g. "service_xxxxxxx"
-var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";  // e.g. "template_xxxxxxx"
+var EMAILJS_PUBLIC_KEY  = "1Ezchnm5fRpOHJYib";   // e.g. "abc123XYZ_abcdefg"
+var EMAILJS_SERVICE_ID  = "service_ha2ae6k";   // e.g. "service_xxxxxxx"
+var EMAILJS_TEMPLATE_ID = "template_f7iv6ns";  // e.g. "template_xxxxxxx"
 // -----------------------------------------------------------
 
 // Initialise EmailJS with your public key
@@ -164,7 +164,8 @@ form.addEventListener("submit", function (e) {
     from_name:  nameInput.value.trim(),
     from_email: emailInput.value.trim(),
     message:    messageInput.value.trim(),
-    to_email:   "letting@mcdermottletting.ie"
+    to_email:   "alanmcdermott81@gmail.com"
+    // to_email:   "letting@mcdermottletting.ie"
   };
 
   emailjs
