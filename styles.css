@@ -588,4 +588,33 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 
+  .rating-badge {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+}
+
+
+/* ======================
+   RATING BADGE
+====================== */
+.rating-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.rating-badge .stars {
+  color: #f39c12;
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+  line-height: 1;
+}
+
+.rating-badge .rating-text {
+  font-size: 0.88rem;
+  color: #555;
 }

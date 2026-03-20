@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for McDermott Letting
+  Submit this file to Google Search Console:
+    https://search.google.com/search-console
+  and to Bing Webmaster Tools:
+    https://www.bing.com/webmasters
+
+  URL: https://www.mcdermottletting.ie/sitemap.xml
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.mcdermottletting.ie/</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

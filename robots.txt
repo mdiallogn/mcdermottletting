@@ -1,0 +1,8 @@
+# McDermott Letting — robots.txt
+# Tells search engines which pages to crawl
+
+User-agent: *
+Allow: /
+
+# Sitemap location — picked up automatically by Google, Bing, and AI crawlers
+Sitemap: https://www.mcdermottletting.ie/sitemap.xml
