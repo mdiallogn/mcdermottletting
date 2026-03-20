@@ -29,19 +29,13 @@
 // -- Replace these three values with your own from EmailJS --
 var EMAILJS_PUBLIC_KEY  = "1Ezchnm5fRpOHJYib";   // e.g. "abc123XYZ_abcdefg"
 var EMAILJS_SERVICE_ID  = "service_ha2ae6k";   // e.g. "service_xxxxxxx"
-var EMAILJS_TEMPLATE_ID = "template_f7iv6ns";  // e.g. "template_xxxxxxx"
+var EMAILJS_TEMPLATE_ID = "template_7gb70u5";  // e.g. "template_xxxxxxx"
 // -----------------------------------------------------------
 
 // Initialise EmailJS with your public key
 (function () {
   emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 })();
-
-
-/* ============================================================
-   FOOTER — CURRENT YEAR
-============================================================ */
-document.getElementById("footerYear").textContent = new Date().getFullYear();
 
 
 /* ============================================================
