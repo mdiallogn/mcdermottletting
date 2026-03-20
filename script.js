@@ -161,11 +161,16 @@ form.addEventListener("submit", function (e) {
 
   // Parameters that map to your EmailJS template variables
   var templateParams = {
-    from_name:  nameInput.value.trim(),
-    from_email: emailInput.value.trim(),
-    message:    messageInput.value.trim(),
-    to_email:   "alanmcdermott81@gmail.com"
-    // to_email:   "letting@mcdermottletting.ie"
+    name:    nameInput.value.trim(),
+    email:   emailInput.value.trim(),
+    message: messageInput.value.trim(),
+    time:    new Date().toLocaleString("en-IE", {
+               day:    "2-digit",
+               month:  "short",
+               year:   "numeric",
+               hour:   "2-digit",
+               minute: "2-digit"
+             })
   };
 
   emailjs
