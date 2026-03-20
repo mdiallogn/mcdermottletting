@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="McDermott Letting – Property letting and management services in Longford, Ireland. Helping landlords since 2009." />
+  <title>McDermott Letting – Longford, Ireland</title>
+
+  <!--
+    EmailJS SDK
+    Replace with the latest version URL if needed: https://www.emailjs.com/docs/sdk/installation/
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =====================
+       HEADER / NAVIGATION
+  ===================== -->
+  <header id="top">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="#top">McDermott Letting</a>
+      </div>
+      <nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- =====================
+       HERO SECTION
+  ===================== -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <h1>Property Letting &amp; Management in Longford</h1>
+      <p class="hero-sub">Trusted by landlords across Longford and the surrounding areas since 2009.</p>
+      <p class="hero-body">
+        We take the hassle out of renting. Whether you have one property or several, we handle the day-to-day
+        so you don't have to.
+      </p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+
+  <!-- =====================
+       SERVICES SECTION
+  ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="section-intro">
+        We focus entirely on residential lettings and property management. No sales, no distractions —
+        just a straightforward service for landlords.
+      </p>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <!-- <div class="service-icon">&#127968;</div> -->
+          <h3>Full Property Management</h3>
+          <p>
+            We manage your property from start to finish — dealing with tenants, maintenance queries
+            and everything in between, so you can step back with confidence.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <!-- <div class="service-icon">&#128101;</div> -->
+          <h3>Tenant Sourcing</h3>
+          <p>
+            We advertise your property, screen applicants and find suitable tenants. We take care of
+            references and all the paperwork that comes with it.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <!-- <div class="service-icon">&#128176;</div> -->
+          <h3>Rent Collection</h3>
+          <p>
+            Rent is collected on your behalf and transferred to you on a regular basis. We keep records
+            and follow up on any late payments promptly.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <!-- <div class="service-icon">&#128269;</div> -->
+          <h3>Property Inspections</h3>
+          <p>
+            We carry out routine inspections and provide you with honest feedback on the condition of
+            your property throughout the tenancy.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================
+       ABOUT SECTION
+  ===================== -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          McDermott Letting has been managing residential properties in Longford and the surrounding
+          areas since 2009. We are a small, local business and we work hard to give every landlord a
+          personal and reliable service.
+        </p>
+        <p>
+          Over the years we have built up a solid reputation in the area based on straightforward
+          communication and doing what we say we'll do. We know the local rental market well and
+          we keep things simple.
+        </p>
+        <p>
+          We deal only with residential lettings and property management. If you are a landlord looking
+          for someone to look after your property properly, we would be happy to have a conversation.
+        </p>
+        <ul class="about-points">
+          <li>Established in Longford since 2009</li>
+          <li>Residential lettings and management only</li>
+          <li>Local knowledge, personal service</li>
+          <li>Straightforward and reliable</li>
+        </ul>
+      </div>
+      <div class="about-highlight">
+        <div class="highlight-box">
+          <span class="highlight-number">15+</span>
+          <span class="highlight-label">Years in Business</span>
+        </div>
+        <div class="highlight-box">
+          <span class="highlight-number">Local</span>
+          <span class="highlight-label">Longford &amp; Surrounding Areas</span>
+        </div>
+        <div class="highlight-box">
+          <span class="highlight-number">100%</span>
+          <span class="highlight-label">Residential Lettings Only</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================
+       CONTACT SECTION
+  ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p class="section-intro">
+        If you are a landlord looking for help with your property, feel free to get in touch.
+        We are happy to have a no-obligation chat.
+      </p>
+
+      <div class="contact-inner">
+
+        <div class="contact-details">
+          <h3>Contact Details</h3>
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:letting@mcdermottletting.ie">letting@mcdermottletting.ie</a>
+            </li>
+            <li>
+              <strong>Location:</strong> Longford, Ireland
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <form id="contactForm" class="contact-form" novalidate>
+
+          <div class="form-group">
+            <label for="name">Your Name <span class="required">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g. John Murphy"
+              required
+            />
+            <span class="field-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="e.g. john@example.com"
+              required
+            />
+            <span class="field-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us a little about your property or what you need help with..."
+              required
+            ></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn" id="submitBtn">Send Message</button>
+
+          <!-- Submission feedback messages -->
+          <p class="form-success" id="formSuccess" aria-live="polite">
+            Thank you — your message has been sent. We will be in touch shortly.
+          </p>
+          <p class="form-error" id="formError" aria-live="polite">
+            Something went wrong. Please try again or email us directly at letting@mcdermottletting.ie
+          </p>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================
+       FOOTER
+  ===================== -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-name">McDermott Letting</p>
+      <p>Longford, Ireland</p>
+      <p><a href="mailto:letting@mcdermottletting.ie">letting@mcdermottletting.ie</a></p>
+      <p class="footer-copy"></span> McDermott Letting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
